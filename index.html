@@ -1,0 +1,42 @@
+<!-- <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recortar imagen</title>
+    <link rel="stylesheet" href="croppedImage.css">
+</head>
+<body>
+    <h1>Recortar imagen</h1>
+    <input type="file" id="imageInput" accept="image/*" onchange="loadImage(this)" />
+    <button onclick="cropImage()">Recortar imagen</button>
+    <div id="originalImage">
+        <img src="" id="imgOr">
+    </div>
+    <div id="croppedImage"></div>
+    <script src="cropImg.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Recortar imagen</title>
+  <link rel="stylesheet" href="croppedImage.css">
+  <script defer typ ="module" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="cropImg.js" type="module"></script>
+</head>
+<body>
+  <h1>Recortar imagen</h1>
+  <input type="file" id="imageInput" accept="image/*"/>
+  <button id="editar">Editar imagen</button>
+  <button id="previsualizar">previsualizar</button>
+  <div id="imgOandDatos">
+    <div id="originalImage"></div>
+    <div id="datosImg"></div>
+   
+    
+  </div>
+  <div id="croppedImage" ></div>  
+ 
+</body>
+</html>

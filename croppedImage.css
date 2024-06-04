@@ -1,0 +1,52 @@
+#croppedImage , #originalImage {
+   
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    /* overflow: hidden; */
+}
+#originalImage img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain;
+    object-position: center; */
+}
+#croppedImage  img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain;
+    object-position: center; */
+}
+#imgOandDatos {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    /* overflow: hidden; */
+}
+#datosImg {
+    
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    /* overflow: hidden; */
+}
+
+/* img {
+    width: 500px;
+    height: 500px;
+} */
+/* .crop-box {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-25%); 
+    /* margin: 0 auto; 
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  } */
