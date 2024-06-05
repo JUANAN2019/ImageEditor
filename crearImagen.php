@@ -24,6 +24,7 @@ if (isset($_POST['upLeftCheckbox']) && isset($_POST['downRightCheckbox']) && iss
 
 
     // Guardar la imagen en un archivo
+    
     imagejpeg($imageBlancoCuadrada, './imagenes/imagen_blanco_cuadrada.jpeg');
     imagejpeg($imageBlancoRectangular, './imagenes/imagen_blanco_rectangular.jpeg');
 
